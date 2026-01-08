@@ -27,3 +27,6 @@ This actually contains a further preliminary check to see if the 'intermediate' 
 
 # Notes
 While tariff and trade data are publicly available from the U.S. International Trade Commission, they are not distributed in a unified, analysis-ready format. This project contributes by constructing a harmonized, long-format panel dataset linking U.S. trade flows and tariff measures at the HTS8, year, and partner-country level.
+
+# License
+![GitHub license](https://img.shields.io/github/license/NicoloZorzetto/computer_programming_and_data_management_assignment)
