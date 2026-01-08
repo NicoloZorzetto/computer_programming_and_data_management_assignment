@@ -2,3 +2,4 @@ data/trade/merged_trade_data.csv filter=lfs diff=lfs merge=lfs -text
 data/trade/domestic_exports/hts10_domestic_exports.csv filter=lfs diff=lfs merge=lfs -text
 data/tariffs/hs_annual_tariffs_cleaned.csv filter=lfs diff=lfs merge=lfs -text
 data/tariffs/hs_annual_tariffs_raw_appended.csv filter=lfs diff=lfs merge=lfs -text
+data/trade_tariffs.csv filter=lfs diff=lfs merge=lfs -text
