@@ -50,10 +50,10 @@ This actually contains a further preliminary check to see if the 'intermediate' 
 | dex_first_unit_quantity | First quantity measure for domestic exports. |
 | dex_second_unit_quantity | Second quantity measure for domestic exports, available only for selected products. |
 | dex_fas_value | Value of domestic exports measured on a Free Alongside Ship (FAS) basis. |
-| ifc_suppressed_any | Indicator equal to 1 if any imports-for-consumption data for the observation are suppressed for confidentiality reasons. |
-| img_suppressed_any | Indicator equal to 1 if any general imports data for the observation are suppressed for confidentiality reasons. |
-| fex_suppressed_any | Indicator equal to 1 if any foreign exports data for the observation are suppressed for confidentiality reasons. |
-| dex_suppressed_any | Indicator equal to 1 if any domestic exports data for the observation are suppressed for confidentiality reasons. |
+| ifc_suppressed_any | Indicator equal to `True` if any imports-for-consumption data for the observation are suppressed for confidentiality reasons. |
+| img_suppressed_any | Indicator equal to `True` if any general imports data for the observation are suppressed for confidentiality reasons. |
+| fex_suppressed_any | Indicator equal to `True` if any foreign exports data for the observation are suppressed for confidentiality reasons. |
+| dex_suppressed_any | Indicator equal to `True` if any domestic exports data for the observation are suppressed for confidentiality reasons. |
 | brief_description | Short textual description of the product from the tariff schedule. |
 | mfn_ave_clean | Average Most-Favored-Nation (MFN) tariff rate where available; only defined for a subset of products and years. |
 | mfn_ad_val_rate | MFN ad valorem tariff rate (percentage), consistently reported across products and years. |
