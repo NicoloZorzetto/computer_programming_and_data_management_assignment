@@ -32,6 +32,33 @@ This actually contains a further preliminary check to see if the 'intermediate' 
 - `data/trade/merged_trade_data.csv`
 - `data/trade_tariffs.csv` — final dataset used for analysis
 
+# Cookbook
+| Variable name | Description |
+|---|---|
+| year | Reference year of the observation. |
+| hts8 | 8-digit Harmonized Tariff Schedule (HTS) product code used to match trade flows with tariff schedules. |
+| country | Trade partner country associated with the trade flow. |
+| ifc_dutiable_value | Dutiable value of imports for consumption, i.e. the portion of import value subject to tariffs. |
+| ifc_customs_value | Total customs value of imports for consumption. |
+| ifc_first_unit_of_quantity | First quantity measure for imports for consumption, expressed in the unit described in the original data. |
+| ifc_second_unit_of_quantity | Second quantity measure for imports for consumption, available only for selected products. |
+| ifc_landed_duty_paid_value | Landed, duty-paid value of imports for consumption, when reported. |
+| ifc_calculated_duties | Calculated import duties associated with imports for consumption. |
+| fex_first_unit_quantity | First quantity measure for foreign exports. |
+| fex_second_unit_quantity | Second quantity measure for foreign exports, available only for selected products. |
+| fex_fas_value | Value of foreign exports measured on a Free Alongside Ship (FAS) basis. |
+| dex_first_unit_quantity | First quantity measure for domestic exports. |
+| dex_second_unit_quantity | Second quantity measure for domestic exports, available only for selected products. |
+| dex_fas_value | Value of domestic exports measured on a Free Alongside Ship (FAS) basis. |
+| ifc_suppressed_any | Indicator equal to 1 if any imports-for-consumption data for the observation are suppressed for confidentiality reasons. |
+| img_suppressed_any | Indicator equal to 1 if any general imports data for the observation are suppressed for confidentiality reasons. |
+| fex_suppressed_any | Indicator equal to 1 if any foreign exports data for the observation are suppressed for confidentiality reasons. |
+| dex_suppressed_any | Indicator equal to 1 if any domestic exports data for the observation are suppressed for confidentiality reasons. |
+| brief_description | Short textual description of the product from the tariff schedule. |
+| mfn_ave_clean | Average Most-Favored-Nation (MFN) tariff rate where available; only defined for a subset of products and years. |
+| mfn_ad_val_rate | MFN ad valorem tariff rate (percentage), consistently reported across products and years. |
+| tariff_specific_adval | Constructed indicator identifying tariff lines with ad valorem (as opposed to specific or textual) tariff rates. |
+
 # Notes
 While tariff and trade data are publicly available from the U.S. International Trade Commission, they are not distributed in a unified, analysis-ready format. This project contributes by constructing a harmonized, long-format panel dataset linking U.S. trade flows and tariff measures at the HTS8, year, and partner-country level.
 
